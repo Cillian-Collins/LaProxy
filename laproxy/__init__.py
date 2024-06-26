@@ -72,6 +72,7 @@ from __future__ import annotations
 from ._laproxy import Proxy, Handler
 from ._tcp import TCPProxy, TCPHandler, NoTCPHandler, TCPLineHandler
 from ._http import HTTPHandler, HTTPPayload, HTTPResponse, HTTPRequest, NoHTTPHandler
+from ._utils import similarity
 
 __all__ = [
     "Proxy",
@@ -85,4 +86,5 @@ __all__ = [
     "HTTPResponse",
     "HTTPRequest",
     "NoHTTPHandler",
+    "similarity"
 ]
